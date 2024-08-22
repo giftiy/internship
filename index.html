@@ -149,45 +149,50 @@
 
     
 
-    <section class="contact-section bg-black text-light py-5" id="contact">
-      <div class="container ms-5">
-        <div class="contact-form">
-
-        <h1 class="text-center mb-4">CONTACT US</h1>
-        <form class="ps-5 mx-5">
-            <div class="col-md-4">
-              <label for="firstName" class="form-label">First Name:</label>
-              <input type="text" class="form-control" id="firstName" placeholder="First Name">
+     <!-- Contact Section -->
+     <section id="contact-us" class="contact-section bg-black text-light py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="contact-form mx-auto">
+              <h1 class="text-center mb-4">CONTACT US</h1>
+              <form>
+                <div class="mb-3">
+                  <label for="firstName" class="form-label">First Name:</label>
+                  <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                </div>
+                <div class="mb-3">
+                  <label for="middleName" class="form-label">Middle Name:</label>
+                  <input type="text" class="form-control" id="middleName" placeholder="Middle Name">
+                </div>
+                <div class="mb-3">
+                  <label for="lastName" class="form-label">Last Name:</label>
+                  <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email:</label>
+                  <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="mb-3">
+                  <label for="subject" class="form-label">Subject:</label>
+                  <select class="form-select" id="subject">
+                    <option selected>Choose...</option>
+                    <option value="internship">Internship</option>
+                    <option value="web-development">Web Development</option>
+                    <option value="software-solutions">Software Solutions</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message:</label>
+                  <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+              </form>
             </div>
-            <div class="col-md-4">
-              <label for="middleName" class="form-label">Middle Name:</label>
-              <input type="text" class="form-control" id="middleName" placeholder="Middle Name">
-            </div>
-            <div class="col-md-4">
-              <label for="lastName" class="form-label">Last Name:</label>
-              <input type="text" class="form-control" id="lastName" placeholder="Last Name">
-            </div>
-        
-          <div class="col-md-4">
-            <label for="email" class="form-label">Email:</label>
-            <input type="email" class="form-control" id="email" placeholder="Your Email">
           </div>
-          <div class="col-md-4">
-            <label for="subject" class="form-label">Subject</label>
-            <select class="form-select" id="subject">
-              <option selected>Choose...</option>
-              <option value="internship">Internship</option>
-              <option value="web-development">Web Development</option>
-              <option value="software-solutions">Software Solutions</option>
-            </select>
-          </div>
-          <div class="col-md-4">
-            <label for="message" class="form-label">Message:</label>
-            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary mt-4 text-center">Send Message</button>
-        </form>
-      </div>
+        </div>
       </div>
     </section>
 
